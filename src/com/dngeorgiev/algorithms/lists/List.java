@@ -1,5 +1,7 @@
 package com.dngeorgiev.algorithms.lists;
 
+import com.dngeorgiev.algorithms.iteration.Iterable;
+
 public interface List extends Iterable {
     void insert(int index, Object value) throws IndexOutOfBoundsException;
     void add(Object value);

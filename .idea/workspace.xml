@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="957281a6-69ef-4b89-8944-dd8ed20f0e9e" name="Default Changelist" comment="" />
+    <list default="true" id="957281a6-69ef-4b89-8944-dd8ed20f0e9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dngeorgiev/algorithms/lists/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dngeorgiev/algorithms/lists/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/dngeorgiev/algorithms/lists/AbstractListTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/dngeorgiev/algorithms/lists/AbstractListTestCase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aSIBIy6MyKddA58U4dbDwYsdwE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +36,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -43,7 +53,7 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmptyIteratorTest">
+  <component name="RunManager" selected="JUnit.AbstractListTestCase">
     <configuration name="RecursiveDirectoryTreePrinter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.RecursiveDirectoryTreePrinter" />
       <module name="AlgorithmsBasics" />
@@ -52,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractListTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsBasics" />
       <extension name="coverage">
         <pattern>
@@ -60,9 +70,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
-      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.AndPredicateTest" />
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.lists" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.lists.AbstractListTestCase" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractListTestCase.testInsertIntoAnEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.lists" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.lists.AbstractListTestCase" />
+      <option name="METHOD_NAME" value="testInsertIntoAnEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,22 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursivePowerCalculatorTest.testAnythingRaisedToThePowerOfOneIsItself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmsBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
-      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.RecursivePowerCalculatorTest" />
-      <option name="METHOD_NAME" value="testAnythingRaisedToThePowerOfOneIsItself" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingleIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsBasics" />
       <extension name="coverage">
@@ -130,19 +140,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.RecursiveDirectoryTreePrinter" />
-      <item itemvalue="JUnit.AndPredicateTest" />
       <item itemvalue="JUnit.EmptyIteratorTest" />
       <item itemvalue="JUnit.RecursivePowerCalculatorTest" />
-      <item itemvalue="JUnit.RecursivePowerCalculatorTest.testAnythingRaisedToThePowerOfOneIsItself" />
       <item itemvalue="JUnit.SingleIteratorTest" />
+      <item itemvalue="JUnit.AbstractListTestCase" />
+      <item itemvalue="JUnit.AbstractListTestCase.testInsertIntoAnEmptyList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AbstractListTestCase" />
+        <item itemvalue="JUnit.AbstractListTestCase.testInsertIntoAnEmptyList" />
         <item itemvalue="JUnit.EmptyIteratorTest" />
         <item itemvalue="JUnit.SingleIteratorTest" />
         <item itemvalue="JUnit.RecursivePowerCalculatorTest" />
-        <item itemvalue="JUnit.RecursivePowerCalculatorTest.testAnythingRaisedToThePowerOfOneIsItself" />
-        <item itemvalue="JUnit.AndPredicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,9 +174,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="127" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1586722441406" />
-    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586775796788">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="327" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589788315949">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="327" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.148.1920.1040@0.0.2560.1400" timestamp="1589788315949" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1586775796788" />
     <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586723388393">
       <screen x="0" y="23" width="1440" height="877" />
@@ -184,25 +195,33 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="251" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586775701867" />
+    <state x="1128" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589786760416">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1128" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-1920.148.1920.1040@0.0.2560.1400" timestamp="1589786760416" />
     <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586859579100">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1586859579100" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1586952405876">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1589788292220">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.148.1920.1040@0.0.2560.1400" timestamp="1589788292220" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586952405876" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1586952405875">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1589788292220">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.148.1920.1040@0.0.2560.1400" timestamp="1589788292220" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586952405875" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1586952405874">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1589788292220">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.148.1920.1040@0.0.2560.1400" timestamp="1589788292220" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586952405874" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1586952405875">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1589788292220">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.148.1920.1040@0.0.2560.1400" timestamp="1589788292220" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586952405875" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1586852250151">
       <screen x="0" y="23" width="1440" height="877" />

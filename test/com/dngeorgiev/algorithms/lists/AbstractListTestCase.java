@@ -1,6 +1,7 @@
 package com.dngeorgiev.algorithms.lists;
 
 import com.dngeorgiev.algorithms.iteration.Iterator;
+import com.dngeorgiev.algorithms.iteration.IteratorOutOfBoundsException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -293,8 +294,16 @@ public abstract class AbstractListTestCase {
     public void testEmptyIteration() {
         List list = createList();
 
-        Iterator iterator = (Iterator) list.iterator();
-        
+        Iterator iterator = list.iterator();
+
+        assertTrue(iterator.isDone());
+
+        try {
+            iterator.current();
+            fail();
+        } catch (IteratorOutOfBoundsException e) {
+            // expected
+        }
     }
 
     @Test
@@ -305,8 +314,59 @@ public abstract class AbstractListTestCase {
         list.add(VALUE_B);
         list.add(VALUE_C);
 
-        assertEquals(3, list.size());
+        Iterator iterator = list.iterator();
 
-        list.iterator();
+        iterator.first();
+        assertFalse(iterator.isDone());
+        assertSame(VALUE_A, iterator.current());
+
+        iterator.next();
+        assertFalse(iterator.isDone());
+        assertSame(VALUE_B, iterator.current());
+
+        iterator.next();
+        assertFalse(iterator.isDone());
+        assertSame(VALUE_C, iterator.current());
+
+        iterator.next();
+        assertTrue(iterator.isDone());
+        try {
+            iterator.current();
+            fail();
+        } catch (IteratorOutOfBoundsException e) {
+            // expected
+        }
+    }
+
+    @Test
+    public void testIterationBackwards() {
+        List list = createList();
+
+        list.add(VALUE_A);
+        list.add(VALUE_B);
+        list.add(VALUE_C);
+
+        Iterator iterator = list.iterator();
+
+        iterator.last();
+        assertFalse(iterator.isDone());
+        assertSame(VALUE_C, iterator.current());
+
+        iterator.previous();
+        assertFalse(iterator.isDone());
+        assertSame(VALUE_B, iterator.current());
+
+        iterator.previous();
+        assertFalse(iterator.isDone());
+        assertSame(VALUE_A, iterator.current());
+
+        iterator.previous();
+        assertTrue(iterator.isDone());
+        try {
+            iterator.current();
+            fail();
+        } catch (IteratorOutOfBoundsException e) {
+            // expected
+        }
     }
 }
