@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="957281a6-69ef-4b89-8944-dd8ed20f0e9e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aSIBIy6MyKddA58U4dbDwYsdwE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.com.dngeorgiev.algorithms.iteration" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dngeorgiev.algorithms.lists" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmptyIteratorTest">
+    <configuration name="RecursiveDirectoryTreePrinter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.RecursiveDirectoryTreePrinter" />
+      <module name="AlgorithmsBasics" />
+      <option name="PROGRAM_PARAMETERS" value="$ContentRoot$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AndPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.AndPredicateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmptyIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.EmptyIteratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursivePowerCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.RecursivePowerCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursivePowerCalculatorTest.testAnythingRaisedToThePowerOfOneIsItself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.RecursivePowerCalculatorTest" />
+      <option name="METHOD_NAME" value="testAnythingRaisedToThePowerOfOneIsItself" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dngeorgiev.algorithms.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dngeorgiev.algorithms.iteration" />
+      <option name="MAIN_CLASS_NAME" value="com.dngeorgiev.algorithms.iteration.SingleIteratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RecursiveDirectoryTreePrinter" />
+      <item itemvalue="JUnit.AndPredicateTest" />
+      <item itemvalue="JUnit.EmptyIteratorTest" />
+      <item itemvalue="JUnit.RecursivePowerCalculatorTest" />
+      <item itemvalue="JUnit.RecursivePowerCalculatorTest.testAnythingRaisedToThePowerOfOneIsItself" />
+      <item itemvalue="JUnit.SingleIteratorTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmptyIteratorTest" />
+        <item itemvalue="JUnit.SingleIteratorTest" />
+        <item itemvalue="JUnit.RecursivePowerCalculatorTest" />
+        <item itemvalue="JUnit.RecursivePowerCalculatorTest.testAnythingRaisedToThePowerOfOneIsItself" />
+        <item itemvalue="JUnit.AndPredicateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="957281a6-69ef-4b89-8944-dd8ed20f0e9e" name="Default Changelist" comment="" />
+      <created>1586722430674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586722430674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Project_Structure" timestamp="1586722441406">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1586722441406" />
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586775796788">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1586775796788" />
+    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586723388393">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1586723388393" />
+    <state x="507" y="173" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586775795737">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="507" y="173" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.877@0.23.1440.877" timestamp="1586775795737" />
+    <state x="533" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1586853592356">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="533" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586853592356" />
+    <state x="457" y="251" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586775701867">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="457" y="251" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586775701867" />
+    <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586859579100">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1586859579100" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1586952405876">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586952405876" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1586952405875">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586952405875" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1586952405874">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586952405874" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1586952405875">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586952405875" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1586852250151">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586852250151" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1586852250150">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586852250150" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1586852250150">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586852250150" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1586852250151">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586852250151" />
+    <state x="208" y="43" key="SettingsEditor" timestamp="1586722846967">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1586722846967" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1587456540606">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1587456540606" />
+    <state x="424" y="362" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586722721102">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="424" y="362" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.877@0.23.1440.877" timestamp="1586722721102" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1586849521164">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1586849521164" />
+  </component>
+</project>
